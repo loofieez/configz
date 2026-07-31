@@ -48,8 +48,10 @@ function sopsx --description "fetch age-keys from proton-pass cli"
     end
 
     # allocate a tiny 2MB virtual drive strictly in your mac's RAM
-    set --local ram_dev (hdiutil attach -nomount ram://4096 | string trim)
-    _log info "allocated 2MB of virtual drive in mac's RAM."
+    # set --local ram_dev (hdiutil attach -nomount ram://4096 | string trim)
+    # reducing virtual disk size to 1MB for safe, mount.
+    set --local ram_dev (hdiutil attach -nomount ram://2048 | string trim)
+    _log info "allocated 1MB of virtual drive in mac's RAM."
 
     # check if allocated RAM is there or not
     if test -z "$ram_dev"

@@ -1,7 +1,7 @@
 #/usr/bin/env fish
 
 # ~/.config/fish/conf.d/b-abbrv.fish
-# bunch abbreviations for most-used commands
+# bunch of abbreviations for most-used commands
 
 if status is-interactive
     # development abbrv.
