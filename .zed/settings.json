@@ -1,0 +1,4 @@
+{
+  "soft_wrap": "prefer_line",
+  "ensure_final_newline_on_save": false
+}

@@ -1,0 +1,6 @@
+# ~/.gitconfig
+# global config
+
+# working directory for projects
+[includeif "gitdir:~/projects/remote/"]
+    path = ~/projects/remote/.gitconfig

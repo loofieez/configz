@@ -1,0 +1,20 @@
+# ~/.ssh/config
+# ssh configuration
+
+# include colima ssh_config
+Include ~/.colima/ssh_config
+
+# Global Block
+Host *
+  ServerAliveInterval 300
+  StrictHostKeyChecking no
+  UserKnownHostsFile /dev/null
+  # make sure ppass should be there
+  IdentityAgent ~/.ppass/agent.sock
+
+# Github Config
+Host github.com
+  User git
+  IdentitiesOnly yes
+  HostName github.com
+  IdentityFile ~/.ssh/remote/auth.pub
