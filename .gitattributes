@@ -1,0 +1,4 @@
+*.md linguist-detectable linguist-language=markdown
+*.yml linguist-detectable linguist-language=yaml
+*.yaml linguist-detectable linguist-language=yaml
+*.json linguist-detectable linguist-language=json

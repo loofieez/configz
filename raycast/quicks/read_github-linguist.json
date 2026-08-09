@@ -1,0 +1,11 @@
+[
+  {
+    "name": "read: github linguist",
+    "link": "https://raw.githubusercontent.com/github-linguist/linguist/refs/heads/main/lib/linguist/languages.yml",
+    "icon": "default",
+    "tags": [
+      "bookmarks",
+      "github"
+    ]
+  }
+]
