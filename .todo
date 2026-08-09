@@ -1,4 +1,5 @@
 todos
-  - [ ] add `tmux` configs
-  - [ ] add `zellij` configs
-  - [ ] add `neovim` configs
+  - [ ] add `colima` default config
+  - [ ] fix `colima glance` config
+  - [ ] fix `btop` config
+  - [ ] configure `nushell`
