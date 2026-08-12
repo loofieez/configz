@@ -1,1 +1,1 @@
-scripts, and dotfiles 🏡
+sarvagya's dotfiles 🏡

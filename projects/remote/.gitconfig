@@ -1,28 +1,25 @@
-# ~/git/github/.gitconfig
-# local config
+# ~/projects/remote/.gitconfig
+# project specific git confs
 
-# use gpg as ssh format
+# gpg
 [gpg]
+    # use ssh
     format = ssh
 
-# use nvim as editor
-[core]
-    editor = nvim
-
-# always sign git commits
+# commit
 [commit]
+    # always sign
     gpgsign = true
 
-# always use main as default branch
-[init]
-    defaultBranch = main
-
-# user config
+# user
 [user]
     name = "loofieez"
+    # public email for commits
     email = "loofieez@proton.me"
+    # signingkey for git commits
     signingkey = "~/.ssh/remote/sign.pub"
 
-# allowed signers file
+# gpg ssh
 [gpg "ssh"]
+    # allwedSignersFile for signing commits
     allowedSignersFile = "~/.ssh/remote/allowed_signers"

@@ -1,0 +1,55 @@
+---
+# ~/.config/colima/workstation/colima.yaml
+# workstation config for colima instance
+
+# no. of CPUs to be allocated to vm
+# default: `2`
+cpu: 2
+
+# size of disk in GiB to be allocated to vm for container data
+# default: 100
+disk: 100
+
+# size of memory in GiB to be allocated to vm
+# default: 2
+memory: 2
+
+arch: host
+runtime: docker
+modelRunner: docker
+hostname: ""
+kubernetes:
+  enabled: false
+  version: v1.35.0+k3s1
+  k3sArgs:
+    - --disable=traefik
+  port: 0
+autoActivate: true
+network:
+  address: false
+  mode: shared
+  interface: en0
+  preferredRoute: false
+  dns: []
+  dnsHosts:
+    host.docker.internal: host.lima.internal
+  hostAddresses: false
+  gatewayAddress: 192.168.5.2
+forwardAgent: false
+docker: {}
+vmType: qemu
+portForwarder: ssh
+rosetta: false
+binfmt: true
+nestedVirtualization: false
+mountType: sshfs
+mountInotify: false
+cpuType: host
+provision: []
+sshConfig: true
+sshPort: 0
+mounts: []
+diskImage: ""
+forceDiskImage: false
+rootDisk: 20
+env: {}
