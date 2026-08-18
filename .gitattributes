@@ -1,0 +1,3 @@
+# hide html from linguist detection
+# because, files are encrypted via sops
+bookmarks/** -linguist-detectable
