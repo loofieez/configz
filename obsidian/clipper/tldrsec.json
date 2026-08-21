@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "0.1.0",
+  "name": "tldrsec",
+  "behavior": "create",
+  "noteContentFormat": "\n-- @backlinks: \nplease, fill this newsletter issue: `x tldrsec issue {{title|split:\"#\"|slice:1|join|split:\"-\"|first|trim}}`.\n",
+  "properties": [
+    {
+      "name": "tags",
+      "value": "newsletters, tldrsec",
+      "type": "multitext"
+    },
+    {
+      "name": "author",
+      "value": "[[clint gibler]]",
+      "type": "multitext"
+    },
+    {
+      "name": "published",
+      "value": "{{published}}",
+      "type": "date"
+    },
+    {
+      "name": "categories",
+      "value": "[[bookmarks]], [[general]], [[security]]",
+      "type": "multitext"
+    },
+    {
+      "name": "issue-slug",
+      "value": "{{url}}",
+      "type": "text"
+    },
+    {
+      "name": "issue-title",
+      "value": "{{title}}",
+      "type": "text"
+    }
+  ],
+  "triggers": [
+    "https://tldrsec.com/p/tldr-sec"
+  ],
+  "noteNameFormat": "xx tldrsec issue {{title|split:\"#\"|slice:1|join|split:\"-\"|first|trim}}",
+  "path": "70 Newsletters/00 tldrsec/"
+}

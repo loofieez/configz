@@ -1,0 +1,8 @@
+{
+  "cssTheme": "Catppuccin",
+  "interfaceFontFamily": "Chalkboard",
+  "textFontFamily": "Chalkboard",
+  "baseFontSizeAction": true,
+  "translucency": false,
+  "nativeMenus": true
+}
