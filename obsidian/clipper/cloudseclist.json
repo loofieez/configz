@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "0.1.0",
+  "name": "cloudseclist",
+  "behavior": "create",
+  "noteContentFormat": "\n-- @backlinks: \nplease, fill this newsletter issue: `x cloudseclist issue {{title|replace:\"/[^0-9]/g\":\"\"}}`.\n",
+  "properties": [
+    {
+      "name": "tags",
+      "value": "newsletters, cloudseclist",
+      "type": "multitext"
+    },
+    {
+      "name": "author",
+      "value": "[[marco lancini]]",
+      "type": "multitext"
+    },
+    {
+      "name": "published",
+      "value": "{{meta:name:date}}",
+      "type": "date"
+    },
+    {
+      "name": "categories",
+      "value": "[[bookmarks]], [[security]], [[cloud]]",
+      "type": "multitext"
+    },
+    {
+      "name": "issue-slug",
+      "value": "{{url}}",
+      "type": "text"
+    },
+    {
+      "name": "issue-title",
+      "value": "{{title}}",
+      "type": "text"
+    }
+  ],
+  "triggers": [
+    "https://cloudseclist.com/issues/"
+  ],
+  "noteNameFormat": "xx cloudseclist issue {{title|replace:\"/[^0-9]/g\":\"\"}}",
+  "path": "70 Newsletters/10 cloudseclist/"
+}
