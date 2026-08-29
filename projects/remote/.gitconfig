@@ -23,3 +23,5 @@
 [gpg "ssh"]
     # allwedSignersFile for signing commits
     allowedSignersFile = "~/.ssh/remote/allowed_signers"
+    # set 1Password as ssh-agent for git commit signing
+    program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"

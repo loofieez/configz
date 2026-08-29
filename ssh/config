@@ -3,18 +3,19 @@
 
 # include colima ssh_config
 Include ~/.colima/ssh_config
+# include 1Password ssh_config
+Include ~/.ssh/1Password/config
 
-# Global Block
+# global block
 Host *
-  ServerAliveInterval 300
-  StrictHostKeyChecking no
-  UserKnownHostsFile /dev/null
-  # make sure ppass should be there
-  IdentityAgent ~/.ppass/agent.sock
+    ServerAliveInterval 300
+    StrictHostKeyChecking no
+    UserKnownHostsFile /dev/null
+    # set 1Password as ssh-agent
+    IdentityAgent ~/.1Password/agent.sock
 
-# Github Config
+# github config
 Host github.com
-  User git
-  IdentitiesOnly yes
-  HostName github.com
-  IdentityFile ~/.ssh/remote/auth.pub
+    User git
+    IdentitiesOnly yes
+    HostName github.com

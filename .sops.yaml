@@ -1,3 +1,6 @@
+# ~/projects/remote/.sops.yaml
+# configuration for sops (remote)
+
 ---
 creation_rules:
   - age:
