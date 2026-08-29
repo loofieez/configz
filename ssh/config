@@ -19,3 +19,4 @@ Host github.com
     User git
     IdentitiesOnly yes
     HostName github.com
+    IdentityFile ~/.ssh/remote/auth.pub

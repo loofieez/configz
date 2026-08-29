@@ -1,0 +1,20 @@
+planned:
+    - [ ] add `zellij` configs
+    - [ ] add `nushell` configs
+    - [ ] add `atuin` configs
+    - [ ] add `zed` configs
+    - [ ] add `gh` configs
+    - [ ] add `nvim` configs
+
+working:
+    - [?] add `btop` configs
+    - [?] add `television` configs
+    - [?] add `colima` configs
+
+finished:
+    - [x] add `openlogi` configs
+    - [x] add `1Password` configs
+    - [x] add `adguard` configs
+
+postponed:
+    - [!] add `aerospace` configs (re: stopped using aerospace)
