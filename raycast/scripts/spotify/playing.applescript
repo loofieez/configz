@@ -53,4 +53,4 @@ on run
         # format output
         return statusText & trackName & " by " & artistName
     end tell
-end run
+nd run

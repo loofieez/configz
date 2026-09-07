@@ -2,7 +2,7 @@
   "schemaVersion": "0.1.0",
   "name": "cloudseclist",
   "behavior": "create",
-  "noteContentFormat": "\n-- @backlinks: \nplease, fill this newsletter issue: `x cloudseclist issue {{title|replace:\"/[^0-9]/g\":\"\"}}`.\n",
+  "noteContentFormat": "\nplease, fill this newsletter issue: `x cloudseclist issue {{title|replace:\"/[^0-9]/g\":\"\"}}`.\n",
   "properties": [
     {
       "name": "tags",
@@ -38,6 +38,6 @@
   "triggers": [
     "https://cloudseclist.com/issues/"
   ],
-  "noteNameFormat": "xx cloudseclist issue {{title|replace:\"/[^0-9]/g\":\"\"}}",
-  "path": "70 Newsletters/10 cloudseclist/"
+  "noteNameFormat": "x cloudseclist issue {{title|replace:\"/[^0-9]/g\":\"\"}}",
+  "path": "60 Newsletters/10 cloudseclist/"
 }

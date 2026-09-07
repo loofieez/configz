@@ -1,17 +1,17 @@
 {
   "schemaVersion": "0.1.0",
-  "name": "tldrsec",
+  "name": "detection-eng",
   "behavior": "create",
-  "noteContentFormat": "\nplease, fill this newsletter issue: `x tldrsec issue {{title|split:\"#\"|slice:1|join|split:\"-\"|first|trim}}`.\n",
+  "noteContentFormat": "\nplease, fill this newsletter issue: `x detection-eng issue {{title | replace:\"/^.*?#([0-9]+).*$/\":\"$1\"}}`.\n",
   "properties": [
     {
       "name": "tags",
-      "value": "newsletters, tldrsec",
+      "value": "newsletters, detection-eng",
       "type": "multitext"
     },
     {
       "name": "author",
-      "value": "[[clint gibler]]",
+      "value": "[[zack allen]]",
       "type": "multitext"
     },
     {
@@ -21,7 +21,7 @@
     },
     {
       "name": "categories",
-      "value": "[[bookmarks]], [[general]], [[security]]",
+      "value": "[[bookmarks]], [[security]], [[blue-team]]",
       "type": "multitext"
     },
     {
@@ -35,9 +35,7 @@
       "type": "text"
     }
   ],
-  "triggers": [
-    "https://tldrsec.com/p/tldr-sec"
-  ],
-  "noteNameFormat": "x tldrsec issue {{title|split:\"#\"|slice:1|join|split:\"-\"|first|trim}}",
-  "path": "60 Newsletters/00 tldrsec/"
+  "triggers": ["https://www.detectionengineering.net/p"],
+  "noteNameFormat": "x detection-eng issue {{title | replace:\"/^.*?#([0-9]+).*$/\":\"$1\"}}",
+  "path": "60 Newsletters/30 detection-eng/"
 }

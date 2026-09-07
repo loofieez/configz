@@ -1,17 +1,17 @@
 {
   "schemaVersion": "0.1.0",
-  "name": "tldrsec",
+  "name": "week-in-aws",
   "behavior": "create",
-  "noteContentFormat": "\nplease, fill this newsletter issue: `x tldrsec issue {{title|split:\"#\"|slice:1|join|split:\"-\"|first|trim}}`.\n",
+  "noteContentFormat": "\nplease, fill this newsletter issue: `x week in aws issue {{selector:span.blog-archive-featured__episode-number}}`.\n",
   "properties": [
     {
       "name": "tags",
-      "value": "newsletters, tldrsec",
+      "value": "newsletters, week-in-aws",
       "type": "multitext"
     },
     {
       "name": "author",
-      "value": "[[clint gibler]]",
+      "value": "[[corey quinn]]",
       "type": "multitext"
     },
     {
@@ -21,7 +21,7 @@
     },
     {
       "name": "categories",
-      "value": "[[bookmarks]], [[general]], [[security]]",
+      "value": "[[bookmarks]], [[cloud]], [[aws]]",
       "type": "multitext"
     },
     {
@@ -35,9 +35,7 @@
       "type": "text"
     }
   ],
-  "triggers": [
-    "https://tldrsec.com/p/tldr-sec"
-  ],
-  "noteNameFormat": "x tldrsec issue {{title|split:\"#\"|slice:1|join|split:\"-\"|first|trim}}",
-  "path": "60 Newsletters/00 tldrsec/"
+  "triggers": ["https://www.lastweekinaws.com/newsletter/"],
+  "noteNameFormat": "x week in aws issue {{selector:span.blog-archive-featured__episode-number}}",
+  "path": "60 Newsletters/20 week-in-aws/"
 }

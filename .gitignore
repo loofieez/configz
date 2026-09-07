@@ -1,2 +1,4 @@
 .rough/**
 **/.DS_Store
+**/graph.json
+**/workspace.json

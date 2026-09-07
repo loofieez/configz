@@ -1,8 +1,9 @@
 {
   "vimMode": true,
-  "defaultViewMode": "source",
   "newFileLocation": "folder",
-  "newFileFolderPath": "30 Random",
+  "newFileFolderPath": "20 Random",
   "attachmentFolderPath": "10 Metas/30 Attachments",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "trashOption": "local",
+  "uriCallbacks": true
 }
